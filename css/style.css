@@ -365,7 +365,7 @@ header .nav-menu .menu-item .sub-menu:last-child li{
 
 /*scroll section*/
 
-
+@media screen and (min-width: 992px){
 #progress{
 
 	
@@ -396,6 +396,11 @@ color: #001a2e;
 
 
 }
+
+}
+
+
+
 
 
 
@@ -555,7 +560,7 @@ color: #001a2e;
 /* /3 */
 
 /* 4 */
-img{
+.img-slide{
 	transform: scale(1.5, 1.5);
 	-webkit-animation-name: zoomin;
   	-webkit-animation-duration: 40s;
